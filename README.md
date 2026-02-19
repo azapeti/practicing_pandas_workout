@@ -4,7 +4,7 @@ This repository contains my personal solutions to exercises from the book **"Pan
 
 ## About
 
-I'm working through the exercises in this book starting from Chapter 2 to improve my pandas skills. This repo serves as a collection of my solutions and practice code.
+I'm working through the exercises in this book (starting from Chapter 2) to improve my pandas skills. This repo serves as a collection of my solutions and practice code.
 
 
 ## Structure
