@@ -1,7 +1,7 @@
 {
   "version": "1",
   "metadata": {
-    "marimo_version": "0.23.6",
+    "marimo_version": "0.23.8",
     "script_metadata_hash": null
   },
   "cells": [
@@ -20,12 +20,12 @@
     },
     {
       "id": "MJUe",
-      "code_hash": "ad74100a4ac4a501a1d928aa2335388b",
+      "code_hash": "8ea5deb55f4a23dad6f20d7aee5e4e0e",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Take the eight CSV files I\u2019ve provided, containing weather data from eight dif-\nferent cities (spanning four states), and turn them into a data frame. The files\nare san+francisco,ca.csv, new+york,ny.csv, springfield,ma.csv, boston,ma.csv,\nspringfield,il.csv, albany,ny.csv, los+angeles,ca.csv, and chicago,il.csv.</span>\n<span class=\"paragraph\">We are only interested in the first three columns from each CSV file: the date\nand time, the max temperature, and the min temperature.</span></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"take-the-eight-csv-files-ive-provided-containing-weather-data-from-eight-different-cities-spanning-four-states-and-turn-them-into-a-data-frame-the-files-are-sanfranciscocacsv-newyorknycsv-springfieldmacsv-bostonmacsv-springfieldilcsv-albanynycsv-losangelescacsv-and-chicagoilcsv\">Take the eight CSV files I\u2019ve provided, containing weather data from eight different cities (spanning four states), and turn them into a data frame. The files are san+francisco,ca.csv, new+york,ny.csv, springfield,ma.csv, boston,ma.csv, springfield,il.csv, albany,ny.csv, los+angeles,ca.csv, and chicago,il.csv.</h3>\n<h3 id=\"we-are-only-interested-in-the-first-three-columns-from-each-csv-file-the-date-and-time-the-max-temperature-and-the-min-temperature\">We are only interested in the first three columns from each CSV file: the date and time, the max temperature, and the min temperature.</h3></span>"
           }
         }
       ],
@@ -33,45 +33,6 @@
     },
     {
       "id": "vblA",
-      "code_hash": "cad0ada3a07f75a73b35a208cc3a1053",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "bkHC",
-      "code_hash": "3b742c89d51173634121b4509916ea6b",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "lEQa",
-      "code_hash": "0d5afc91bf75f8f134967ff5c82456ea",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "PKri",
       "code_hash": "1d02f0dfc9f6e481a3f0088b3a83541f",
       "outputs": [
         {
@@ -84,8 +45,8 @@
       "console": []
     },
     {
-      "id": "Xref",
-      "code_hash": "126570d12db7e9d5dab9196502fb2bee",
+      "id": "bkHC",
+      "code_hash": "794bd5680563d818e7bdbdd99ec0a747",
       "outputs": [
         {
           "type": "data",
@@ -97,16 +58,127 @@
       "console": []
     },
     {
-      "id": "SFPL",
-      "code_hash": "4ec503be252d765ea37621a629afdaa6",
+      "id": "lEQa",
+      "code_hash": "a5706ee8b571f2ca0060c284921d6ba0",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "application/json": "[\"text/html:<marimo-ui-element object-id='SFPL-0' random-id='6c19ab0a-327a-b20e-1c90-766c2244ea2a'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;san_francisco&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;san_francisco&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 06:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;san_francisco&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 09:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;san_francisco&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 12:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;san_francisco&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 15:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;san_francisco&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 18:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;san_francisco&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 21:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;san_francisco&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:15,&#92;&quot;min_temp&#92;&quot;:11,&#92;&quot;san_francisco&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:15,&#92;&quot;min_temp&#92;&quot;:11,&#92;&quot;san_francisco&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;}]&quot;' data-total-rows='728' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;date_time&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;max_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;min_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;san_francisco&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;ca&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\", \"text/html:<marimo-ui-element object-id='SFPL-1' random-id='b854ce78-7cde-692a-7e32-0385ea181d29'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:4,&#92;&quot;min_temp&#92;&quot;:-1,&#92;&quot;new_york&#92;&quot;:&#92;&quot;new_york&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:4,&#92;&quot;min_temp&#92;&quot;:-1,&#92;&quot;new_york&#92;&quot;:&#92;&quot;new_york&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 06:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:4,&#92;&quot;min_temp&#92;&quot;:-1,&#92;&quot;new_york&#92;&quot;:&#92;&quot;new_york&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 09:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:4,&#92;&quot;min_temp&#92;&quot;:-1,&#92;&quot;new_york&#92;&quot;:&#92;&quot;new_york&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 12:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:4,&#92;&quot;min_temp&#92;&quot;:-1,&#92;&quot;new_york&#92;&quot;:&#92;&quot;new_york&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 15:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:4,&#92;&quot;min_temp&#92;&quot;:-1,&#92;&quot;new_york&#92;&quot;:&#92;&quot;new_york&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 18:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:4,&#92;&quot;min_temp&#92;&quot;:-1,&#92;&quot;new_york&#92;&quot;:&#92;&quot;new_york&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 21:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:4,&#92;&quot;min_temp&#92;&quot;:-1,&#92;&quot;new_york&#92;&quot;:&#92;&quot;new_york&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:4,&#92;&quot;min_temp&#92;&quot;:1,&#92;&quot;new_york&#92;&quot;:&#92;&quot;new_york&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:4,&#92;&quot;min_temp&#92;&quot;:1,&#92;&quot;new_york&#92;&quot;:&#92;&quot;new_york&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;}]&quot;' data-total-rows='728' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;date_time&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;max_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;min_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;new_york&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;ny&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\", \"text/html:<marimo-ui-element object-id='SFPL-2' random-id='f437e1ea-eb4a-3b13-e874-aeaec1dff165'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-7,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-7,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 06:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-7,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 09:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-7,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 12:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-7,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 15:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-7,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 18:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-7,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 21:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-7,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-5,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-5,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;}]&quot;' data-total-rows='728' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;date_time&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;max_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;min_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;springfield&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;ma&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\", \"text/html:<marimo-ui-element object-id='SFPL-3' random-id='4e740d09-fe3d-3817-9718-cc32b2518c54'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-4,&#92;&quot;boston&#92;&quot;:&#92;&quot;boston&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-4,&#92;&quot;boston&#92;&quot;:&#92;&quot;boston&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 06:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-4,&#92;&quot;boston&#92;&quot;:&#92;&quot;boston&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 09:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-4,&#92;&quot;boston&#92;&quot;:&#92;&quot;boston&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 12:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-4,&#92;&quot;boston&#92;&quot;:&#92;&quot;boston&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 15:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-4,&#92;&quot;boston&#92;&quot;:&#92;&quot;boston&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 18:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-4,&#92;&quot;boston&#92;&quot;:&#92;&quot;boston&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 21:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-4,&#92;&quot;boston&#92;&quot;:&#92;&quot;boston&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:2,&#92;&quot;min_temp&#92;&quot;:-3,&#92;&quot;boston&#92;&quot;:&#92;&quot;boston&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:2,&#92;&quot;min_temp&#92;&quot;:-3,&#92;&quot;boston&#92;&quot;:&#92;&quot;boston&#92;&quot;,&#92;&quot;ma&#92;&quot;:&#92;&quot;ma&#92;&quot;}]&quot;' data-total-rows='728' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;date_time&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;max_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;min_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;boston&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;ma&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\", \"text/html:<marimo-ui-element object-id='SFPL-4' random-id='27d1d3e7-66ff-5d56-72aa-ce6ea979cdf1'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:5,&#92;&quot;min_temp&#92;&quot;:-3,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:5,&#92;&quot;min_temp&#92;&quot;:-3,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 06:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:5,&#92;&quot;min_temp&#92;&quot;:-3,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 09:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:5,&#92;&quot;min_temp&#92;&quot;:-3,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 12:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:5,&#92;&quot;min_temp&#92;&quot;:-3,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 15:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:5,&#92;&quot;min_temp&#92;&quot;:-3,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 18:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:5,&#92;&quot;min_temp&#92;&quot;:-3,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 21:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:5,&#92;&quot;min_temp&#92;&quot;:-3,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:7,&#92;&quot;min_temp&#92;&quot;:2,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:7,&#92;&quot;min_temp&#92;&quot;:2,&#92;&quot;springfield&#92;&quot;:&#92;&quot;springfield&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;}]&quot;' data-total-rows='728' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;date_time&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;max_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;min_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;springfield&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;il&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\", \"text/html:<marimo-ui-element object-id='SFPL-5' random-id='aafec162-a9f5-cfff-f305-1d12aedc117c'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:-2,&#92;&quot;min_temp&#92;&quot;:-8,&#92;&quot;albany&#92;&quot;:&#92;&quot;albany&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:-2,&#92;&quot;min_temp&#92;&quot;:-8,&#92;&quot;albany&#92;&quot;:&#92;&quot;albany&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 06:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:-2,&#92;&quot;min_temp&#92;&quot;:-8,&#92;&quot;albany&#92;&quot;:&#92;&quot;albany&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 09:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:-2,&#92;&quot;min_temp&#92;&quot;:-8,&#92;&quot;albany&#92;&quot;:&#92;&quot;albany&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 12:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:-2,&#92;&quot;min_temp&#92;&quot;:-8,&#92;&quot;albany&#92;&quot;:&#92;&quot;albany&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 15:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:-2,&#92;&quot;min_temp&#92;&quot;:-8,&#92;&quot;albany&#92;&quot;:&#92;&quot;albany&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 18:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:-2,&#92;&quot;min_temp&#92;&quot;:-8,&#92;&quot;albany&#92;&quot;:&#92;&quot;albany&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 21:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:-2,&#92;&quot;min_temp&#92;&quot;:-8,&#92;&quot;albany&#92;&quot;:&#92;&quot;albany&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:0,&#92;&quot;min_temp&#92;&quot;:-5,&#92;&quot;albany&#92;&quot;:&#92;&quot;albany&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:0,&#92;&quot;min_temp&#92;&quot;:-5,&#92;&quot;albany&#92;&quot;:&#92;&quot;albany&#92;&quot;,&#92;&quot;ny&#92;&quot;:&#92;&quot;ny&#92;&quot;}]&quot;' data-total-rows='728' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;date_time&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;max_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;min_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;albany&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;ny&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\", \"text/html:<marimo-ui-element object-id='SFPL-6' random-id='9dc251ce-f85b-72b6-0be0-73694210c5eb'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:20,&#92;&quot;min_temp&#92;&quot;:14,&#92;&quot;los_angeles&#92;&quot;:&#92;&quot;los_angeles&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:20,&#92;&quot;min_temp&#92;&quot;:14,&#92;&quot;los_angeles&#92;&quot;:&#92;&quot;los_angeles&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 06:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:20,&#92;&quot;min_temp&#92;&quot;:14,&#92;&quot;los_angeles&#92;&quot;:&#92;&quot;los_angeles&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 09:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:20,&#92;&quot;min_temp&#92;&quot;:14,&#92;&quot;los_angeles&#92;&quot;:&#92;&quot;los_angeles&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 12:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:20,&#92;&quot;min_temp&#92;&quot;:14,&#92;&quot;los_angeles&#92;&quot;:&#92;&quot;los_angeles&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 15:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:20,&#92;&quot;min_temp&#92;&quot;:14,&#92;&quot;los_angeles&#92;&quot;:&#92;&quot;los_angeles&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 18:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:20,&#92;&quot;min_temp&#92;&quot;:14,&#92;&quot;los_angeles&#92;&quot;:&#92;&quot;los_angeles&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 21:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:20,&#92;&quot;min_temp&#92;&quot;:14,&#92;&quot;los_angeles&#92;&quot;:&#92;&quot;los_angeles&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:19,&#92;&quot;min_temp&#92;&quot;:14,&#92;&quot;los_angeles&#92;&quot;:&#92;&quot;los_angeles&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:19,&#92;&quot;min_temp&#92;&quot;:14,&#92;&quot;los_angeles&#92;&quot;:&#92;&quot;los_angeles&#92;&quot;,&#92;&quot;ca&#92;&quot;:&#92;&quot;ca&#92;&quot;}]&quot;' data-total-rows='728' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;date_time&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;max_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;min_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;los_angeles&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;ca&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\", \"text/html:<marimo-ui-element object-id='SFPL-7' random-id='cb4d329b-4a8e-91b8-387c-3fdf64d10e05'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-2,&#92;&quot;chicago&#92;&quot;:&#92;&quot;chicago&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-2,&#92;&quot;chicago&#92;&quot;:&#92;&quot;chicago&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 06:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-2,&#92;&quot;chicago&#92;&quot;:&#92;&quot;chicago&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 09:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-2,&#92;&quot;chicago&#92;&quot;:&#92;&quot;chicago&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 12:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-2,&#92;&quot;chicago&#92;&quot;:&#92;&quot;chicago&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 15:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-2,&#92;&quot;chicago&#92;&quot;:&#92;&quot;chicago&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 18:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-2,&#92;&quot;chicago&#92;&quot;:&#92;&quot;chicago&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 21:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:1,&#92;&quot;min_temp&#92;&quot;:-2,&#92;&quot;chicago&#92;&quot;:&#92;&quot;chicago&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:3,&#92;&quot;min_temp&#92;&quot;:-1,&#92;&quot;chicago&#92;&quot;:&#92;&quot;chicago&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;},{&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:3,&#92;&quot;min_temp&#92;&quot;:-1,&#92;&quot;chicago&#92;&quot;:&#92;&quot;chicago&#92;&quot;,&#92;&quot;il&#92;&quot;:&#92;&quot;il&#92;&quot;}]&quot;' data-total-rows='728' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;date_time&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;max_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;min_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;chicago&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;il&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\"]"
+            "text/plain": ""
           }
         }
       ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "eff7d5dba32b4da32d9a67a519434d3f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='c57e16f4-53f8-cf0a-f186-c2d0e369c653'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:0,&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;city&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;state&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;&#92;&quot;:1,&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;city&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;state&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;&#92;&quot;:2,&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 06:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;city&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;state&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;&#92;&quot;:3,&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 09:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;city&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;state&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;&#92;&quot;:4,&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 12:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;city&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;state&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;&#92;&quot;:5,&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 15:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;city&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;state&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;&#92;&quot;:6,&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 18:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;city&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;state&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;&#92;&quot;:7,&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-11 21:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:13,&#92;&quot;min_temp&#92;&quot;:8,&#92;&quot;city&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;state&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;&#92;&quot;:8,&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 00:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:15,&#92;&quot;min_temp&#92;&quot;:11,&#92;&quot;city&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;state&#92;&quot;:&#92;&quot;ca&#92;&quot;},{&#92;&quot;&#92;&quot;:9,&#92;&quot;date_time&#92;&quot;:&#92;&quot;2018-12-12 03:00:00&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:15,&#92;&quot;min_temp&#92;&quot;:11,&#92;&quot;city&#92;&quot;:&#92;&quot;san_francisco&#92;&quot;,&#92;&quot;state&#92;&quot;:&#92;&quot;ca&#92;&quot;}]&quot;' data-total-rows='5824' data-size-bytes='596081' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;date_time&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;max_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;min_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;city&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;state&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "b6204d070f504e9b678134974fa6ca1b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"does-the-data-for-each-city-and-state-start-and-end-at-roughly-the-same-time\">Does the data for each city and state start and end at (roughly) the same time?</h3>\n<h3 id=\"how-do-you-know\">How do you know?</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "b59affc68cc2abc5571bae5efa03fb48",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "0    2018-12-11 00:00:00\n0    2018-12-11 00:00:00\n0    2018-12-11 00:00:00\n0    2018-12-11 00:00:00\n0    2018-12-11 00:00:00\n0    2018-12-11 00:00:00\n0    2018-12-11 00:00:00\n0    2018-12-11 00:00:00\n727    2019-03-11 21:00:00\n727    2019-03-11 21:00:00\n727    2019-03-11 21:00:00\n727    2019-03-11 21:00:00\n727    2019-03-11 21:00:00\n727    2019-03-11 21:00:00\n727    2019-03-11 21:00:00\n727    2019-03-11 21:00:00\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "93130edec9cf7548bf5cb8d4216384bd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"what-is-the-lowest-minimum-temperature-recorded-for-each-city-in-the-data-set\">What is the lowest minimum temperature recorded for each city in the data set?</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "033f1e44a12891b52f1ce33f5f6f85cb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "              city  min_temp\n672  san_francisco         3\n         city  min_temp\n328  new_york       -14\n            city  min_temp\n408  springfield       -20\n       city  min_temp\n328  boston       -14\n            city  min_temp\n400  springfield       -25\n       city  min_temp\n328  albany       -19\n            city  min_temp\n584  los_angeles         4\n        city  min_temp\n400  chicago       -28\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "leze",
+      "code_hash": "8ecdb5bf729232fa23e332be743f4e4d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"what-is-the-highest-maximum-temperature-recorded-in-each-state-in-the-data-set\">What is the highest maximum temperature recorded in each state in the data set?</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bGBP",
+      "code_hash": "57e3a95aa8b94ca5f98e3dab722f478a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='bGBP-0' random-id='9c7607b4-fec4-8aab-d362-07ce6badafbe'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;state&#92;&quot;:&#92;&quot;ca&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:23},{&#92;&quot;state&#92;&quot;:&#92;&quot;il&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:16},{&#92;&quot;state&#92;&quot;:&#92;&quot;ma&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:17},{&#92;&quot;state&#92;&quot;:&#92;&quot;ny&#92;&quot;,&#92;&quot;max_temp&#92;&quot;:15}]&quot;' data-total-rows='4' data-size-bytes='117' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;max_temp&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;state&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Fyup",
+      "code_hash": null,
+      "outputs": [],
       "console": []
     }
   ]
