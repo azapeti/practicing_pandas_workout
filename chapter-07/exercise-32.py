@@ -117,6 +117,58 @@ def _(df):
     return
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ## Beyond the exercise_1
+    ### Run `describe` on the minimum and maximum temperature for each state-city combination.
+    """)
+    return
+
+
+@app.cell
+def _(df):
+    df.groupby(['state', 'city'])['min_temp'].describe()
+    return
+
+
+@app.cell
+def _(df):
+    df.groupby(['state', 'city'])['max_temp'].describe()
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ## Beyond the exercise_2
+    ### Running `describe` works, but we only see the first and last few rows from each result. Using `pd.set_option` to change the value of `display_max_rows` makes it possible to see all the results in Jupyter. Then reset the option to 10 rows.
+    """)
+    return
+
+
+@app.cell
+def _():
+    # This is not relevant question in my solution
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ## Beyond the exercise_3
+
+    ### What is the average difference in temperature (i.e., max – min) for each of the cities in our data set?
+    """)
+    return
+
+
+@app.cell
+def _(df):
+    df.groupby('city')['max_temp'].mean() - df.groupby('city')['min_temp'].mean()
+    return
+
+
 @app.cell
 def _():
     return
