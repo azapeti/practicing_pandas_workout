@@ -49,6 +49,25 @@ def _(files_list, pd):
         _df['state'] = state
 
         dfs.append(_df)
+
+    '''
+    the "_" sign usually suggests:
+
+    temporary/helper dataframe
+    not meant to be used outside the current context
+    intermediate step in a pipeline
+    “internal use” variable
+
+    It does not change how Python works — _df behaves exactly like df.
+
+    In Marimo specifically, people often use _-prefixed variables to:
+
+    avoid clutter in the notebook namespace
+    mark intermediate variables
+    signal “don’t rely on this cell output elsewhere”
+    '''
+
+    # NOTE: Reuven solution is muhn cooler then mine, check it because you can learn a lot from that.
     return (dfs,)
 
 
